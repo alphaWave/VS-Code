@@ -1,0 +1,23 @@
+{
+    "explorer.confirmDelete": false,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "cmake.configureOnOpen": true,
+    "idf.adapterTargetName": "esp32",
+    "idf.espIdfPath": "/Users/dolpdiego/esp/esp-idf",
+    "idf.pythonBinPath": "/Users/dolpdiego/.espressif/python_env/idf4.4_py3.9_env/bin/python",
+    "idf.toolsPath": "/Users/dolpdiego/.espressif",
+    "idf.customExtraPaths": "/Users/dolpdiego/.espressif/tools/xtensa-esp32-elf/esp-2021r2-8.4.0/xtensa-esp32-elf/bin:/Users/dolpdiego/.espressif/tools/xtensa-esp32s2-elf/esp-2021r2-8.4.0/xtensa-esp32s2-elf/bin:/Users/dolpdiego/.espressif/tools/xtensa-esp32s3-elf/esp-2021r2-8.4.0/xtensa-esp32s3-elf/bin:/Users/dolpdiego/.espressif/tools/riscv32-esp-elf/esp-2021r2-8.4.0/riscv32-esp-elf/bin:/Users/dolpdiego/.espressif/tools/esp32ulp-elf/2.28.51-esp-20191205/esp32ulp-elf-binutils/bin:/Users/dolpdiego/.espressif/tools/esp32s2ulp-elf/2.28.51-esp-20191205/esp32s2ulp-elf-binutils/bin:/Users/dolpdiego/.espressif/tools/openocd-esp32/v0.10.0-esp32-20211111/openocd-esp32/bin",
+    "idf.customExtraVars": "{\"OPENOCD_SCRIPTS\":\"/Users/dolpdiego/.espressif/tools/openocd-esp32/v0.10.0-esp32-20211111/openocd-esp32/share/openocd/scripts\"}",
+    "idf.gitPath": "/usr/bin/git",
+    "idf.openOcdConfigs": [
+        "boards/esp32-wrover-kit-3.3v.cfg"
+    ],
+    "C_Cpp.intelliSenseEngineFallback": "Enabled",
+    "idf.port": "/dev/cu.usbserial-5",
+    "terminal.integrated.inheritEnv": false,
+    "idf.flashType": "UART",
+    "workbench.colorTheme": "City Lights",
+    "workbench.iconTheme": "material-icon-theme",
+    "git.confirmSync": false,
+    "diffEditor.renderSideBySide": false
+}

@@ -1,0 +1,103 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+c",
+        "command": "-emacs.cuaCopy",
+        "when": "editorHasSelection && !suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+v",
+        "command": "-emacs.cuaPaste",
+        "when": "editorTextFocus && !suggestWidgetVisible"
+    },
+    {
+        "key": "ctrl+shift+n",
+        "command": "cursorDownSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+p",
+        "command": "cursorUpSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+f",
+        "command": "cursorRightSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+b",
+        "command": "cursorLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+f",
+        "command": "cursorWordEndRightSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+shift+alt+b",
+        "command": "cursorWordEndLeftSelect",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+cmd+p",
+        "command": "cursorPageUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+cmd+n",
+        "command": "cursorPageDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "pageup",
+        "command": "-cursorPageUp",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "pagedown",
+        "command": "-cursorPageDown",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-editor.action.addSelectionToNextFindMatch",
+        "when": "editorFocus"
+    },
+    {
+        "key": "ctrl+p",
+        "command": "editor.action.previousMatchFindAction",
+        "when": "findWidgetVisible"
+    },
+    {
+        "key": "ctrl+r",
+        "command": "-editor.action.previousMatchFindAction",
+        "when": "findWidgetVisible"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "editor.action.nextMatchFindAction",
+        "when": "findWidgetVisible"
+    },
+    {
+        "key": "ctrl+s",
+        "command": "-editor.action.nextMatchFindAction",
+        "when": "findWidgetVisible"
+    },
+    {
+        "key": "cmd+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    }
+]
